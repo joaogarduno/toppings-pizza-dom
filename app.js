@@ -69,6 +69,31 @@
 // console.log(typeof primerToppingNaranja)
 
 
-const primerToppingNoMarron = document.querySelector('ul li:not(.fondo-marron)');
-console.log(primerToppingNoMarron)
+// const primerToppingNoMarron = document.querySelector('ul li:not(.fondo-marron)');
+// console.log(primerToppingNoMarron);
 
+
+
+// -----------------------------------
+// Cuarto metodo para seleccionar los elementos del DOM es .querySelectorAll()
+// Es similar al .querySelector()
+const toppingsNaranja = document.querySelectorAll('.topping.fondo-naranja');
+
+// console.log(toppingsNaranja);
+
+// console.log(toppingsNaranja[0]);
+// console.log(toppingsNaranja[1]);
+
+// console.log(toppingsNaranja.length);
+console.log(typeof toppingsNaranja);
+
+
+
+// -----------------------------------
+// Estos son los 4 metodos básicos para seleccionar elementos del DOM con JavaScript.
+
+// .getElementById() -
+// .getElementByClassName() -
+
+// .querySelector() -
+// .querySelectorAll() -
