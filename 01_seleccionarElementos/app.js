@@ -77,7 +77,7 @@
 // -----------------------------------
 // Cuarto metodo para seleccionar los elementos del DOM es .querySelectorAll()
 // Es similar al .querySelector()
-const toppingsNaranja = document.querySelectorAll('.topping.fondo-naranja');
+// const toppingsNaranja = document.querySelectorAll('.topping.fondo-naranja');
 
 // console.log(toppingsNaranja);
 
@@ -85,7 +85,7 @@ const toppingsNaranja = document.querySelectorAll('.topping.fondo-naranja');
 // console.log(toppingsNaranja[1]);
 
 // console.log(toppingsNaranja.length);
-console.log(typeof toppingsNaranja);
+// console.log(typeof toppingsNaranja);
 
 
 
