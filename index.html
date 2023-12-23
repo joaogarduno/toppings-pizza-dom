@@ -15,11 +15,21 @@
   <div id="contenedor">
     <h1 id="titulo">🍕 <br>Toppings de Pizza</h1>
     <ul id="lista-toppings">
+      <!-- Asignamos la misma función la reutilizamos y vemos que cada vez que hacemos clic en nuestros elementos <li> se muestra un mensaje nuevo en la consola asi que ya estamos asociando ese evento con esa función para cada uno de estos elementos -->
+
+        <!-- Y tambien podríamos personalizarlos -->
+      <li onclick="mostrarClic('Aceitunas')" id="aceitunas" class="topping fondo-marron">Aceitunas</li>
+      <li onclick="mostrarClic('Cebolla')" class="topping fondo-naranja">Cebolla</li>
+      <li onclick="mostrarClic('Albahaca')" id="albahaca" class="topping fondo-marron">Albahaca</li>
+      <li onclick="mostrarClic('Champiñones')" class="topping fondo-naranja">Champiñones</li>
+    </ul>
+
+    <!-- <ul id="lista-toppings">
       <li id="aceitunas" class="topping fondo-marron">Aceitunas</li>
       <li class="topping fondo-naranja">Cebolla</li>
       <li id="albahaca" class="topping fondo-marron">Albahaca</li>
-      <li class="topping fondo-naranja">Champiñones</li>
-    </ul>
+      <li onclick="mostrarClic()" class="topping fondo-naranja">Champiñones</li>
+    </ul> -->
 
 
     <!-- PRUEBA CON TEMA: jerarquíaDom - 01_recorrerDom -->
@@ -29,6 +39,6 @@
   </div>
 
   <!-- SCRIPT -->
-  <script src="./08_eventos/01_eventosDOM/app.js"></script>
+  <script src="./08_eventos/03_eventosCononEventHtml/app.js"></script>
 </body>
 </html>
